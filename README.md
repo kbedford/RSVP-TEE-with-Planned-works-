@@ -1,10 +1,5 @@
 # RSVP-TEE-with-Planned-works
-RSVP TE ++
 
-
-Here’s a `README.md` you can drop straight into your GitHub repo and tweak as you like:
-
-````markdown
 # Junos RSVP-TE++ Container LSP Lab
 
 This lab demonstrates how to use **RSVP-TE container LSPs** (aka **RSVP-TE++**) on Junos to:
@@ -14,7 +9,6 @@ This lab demonstrates how to use **RSVP-TE container LSPs** (aka **RSVP-TE++**) 
 - Drive ~**1 Mbps** of traffic through the container and observe per-LSP statistics.
 - Use **admin-groups** (`PLANNED-WORK`) to steer LSPs away from a “bad/maintenance” link via an alternate path (`vMX106`) without touching IGP metrics.
 
----
 
 ## 1. Topology
 
