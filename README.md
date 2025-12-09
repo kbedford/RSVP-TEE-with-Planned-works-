@@ -306,18 +306,3 @@ monitor traffic interface ge-0/1/3.0 no-resolve
 ```
 
 ---
-
-## 7. Next Steps / Ideas
-
-* Scale up more member LSPs (e.g. `maximum-member-lsps 8`) and push higher bandwidth to see how the container reacts.
-* Combine RSVP-TE++ with **DS-TE** / per-class TE constraints.
-* Export telemetry (gNMI, sFlow, inline-jflow) for container/member LSP statistics into Prometheus / InfluxDB + Grafana.
-* Extend the lab to compare behaviour vs. **SR-TE / SPRING-TE** under similar admin-group constraints.
-
----
-
-```
-
-If you want, I can also add a short “Story”/Background section at the top explaining *why* you built this lab (Vodafone use-case / RSVP-TE++ interop) to make the repo more narrative and recruiter-friendly.
-::contentReference[oaicite:0]{index=0}
-```
