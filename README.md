@@ -119,9 +119,7 @@ On `vMX102`, a static route points the destination loopback into the RSVP-TE++ c
 > Note: adjust to your exact addressing; below is an example pattern.
 
 ```bash
-set routing-options static route 172.16.105.1/32 \
-    qualified-next-hop 11.102.105.2 interface ge-0/1/2.0 \
-    lsp-next-hop TEPP-102-105-1
+set routing-options static route 172.16.105.1/32 qualified-next-hop 11.102.105.2 interface ge-0/1/2.0 lsp-next-hop TEPP-102-105-1
 ```
 
 From the Linux host you can verify reachability:
